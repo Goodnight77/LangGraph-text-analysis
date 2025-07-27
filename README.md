@@ -29,13 +29,17 @@ langgraph_text_analysis/
 ```
 Classification → 2. Entity Extraction → 3. Summarization
 ```
+
+![Basic Pipeline](./output/basic_workflow.png)
+
 ### Enhanced Pipeline Flow
 
 ```
 Classification → 2. Entity Extraction → 3. Summarization → 4. Sentiment Analysis
 ```
-and you get this : 
-![enhanced pipe](./output/imgs/enhanced_workflow.png)
+
+![Enhanced Pipeline](./output/enhanced_workflow.png)
+
 ### Conditional Pipeline Flow
 
 ```
@@ -44,6 +48,12 @@ Classification →
 If News/Research: Entity Extraction → Summarization → Sentiment Analysis
 If Blog/Other: Summarization → Sentiment Analysis
 ```
+
+![Conditional Pipeline](./output/conditional_workflow.png)
+
+### Simple Workflow Graph
+
+![Simple Workflow Graph](./output/simple_workflow_graph.png)
 ## References
 *   [LangGraph Documentation](https://python.langchain.com/docs/langgraph)
 *   [LangChain Documentation](https://python.langchain.com/docs)
