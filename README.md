@@ -1,3 +1,5 @@
+## project structure 
+```
 langgraph_text_analysis/
 ├── requirements.txt
 ├── README.md
@@ -18,22 +20,28 @@ langgraph_text_analysis/
 └── tests/
     ├── __init__.py
     └── test_workflows.py     # Basic workflow tests
+```
 
 
-
-
-How It Works
-Basic Pipeline Flow
+## How It Works
+### Basic Pipeline Flow
 
 Classification → 2. Entity Extraction → 3. Summarization
 
-Enhanced Pipeline Flow
+### Enhanced Pipeline Flow
 
 Classification → 2. Entity Extraction → 3. Summarization → 4. Sentiment Analysis
 
-Conditional Pipeline Flow
+### Conditional Pipeline Flow
 
 Classification →
 
 If News/Research: Entity Extraction → Summarization → Sentiment Analysis
 If Blog/Other: Summarization → Sentiment Analysis
+
+## References
+*   [LangGraph Documentation](https://python.langchain.com/docs/langgraph)
+*   [LangChain Documentation](https://python.langchain.com/docs)
+
+## Contributing
+Feel free to contribute to this project by submitting pull requests, reporting issues, or suggesting new features.
