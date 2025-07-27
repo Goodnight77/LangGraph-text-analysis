@@ -35,7 +35,7 @@ Classification → 2. Entity Extraction → 3. Summarization
 Classification → 2. Entity Extraction → 3. Summarization → 4. Sentiment Analysis
 ```
 and you get this : 
-[enhanced pipe](./output/imgs/enhanced_workflow.png)
+![enhanced pipe](./output/imgs/enhanced_workflow.png)
 ### Conditional Pipeline Flow
 
 ```
