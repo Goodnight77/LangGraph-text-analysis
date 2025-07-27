@@ -26,19 +26,19 @@ langgraph_text_analysis/
 ## How It Works
 ### Basic Pipeline Flow
 
-Classification → 2. Entity Extraction → 3. Summarization
-
+```Classification → 2. Entity Extraction → 3. Summarization
+```
 ### Enhanced Pipeline Flow
 
-Classification → 2. Entity Extraction → 3. Summarization → 4. Sentiment Analysis
-
+```Classification → 2. Entity Extraction → 3. Summarization → 4. Sentiment Analysis
+```
 ### Conditional Pipeline Flow
 
-Classification →
+```Classification →
 
 If News/Research: Entity Extraction → Summarization → Sentiment Analysis
 If Blog/Other: Summarization → Sentiment Analysis
-
+```
 ## References
 *   [LangGraph Documentation](https://python.langchain.com/docs/langgraph)
 *   [LangChain Documentation](https://python.langchain.com/docs)
