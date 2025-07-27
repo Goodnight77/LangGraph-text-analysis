@@ -1,3 +1,48 @@
+# LangGraph Text Analysis Pipeline
+A modular text analysis pipeline built with LangGraph and LangChain.
+---
+
+## Setup & installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Goodnight77/langgraph_text_analysis.git
+cd langgraph_text_analysis
+```
+
+### 2. Create a virtual Environment
+``` bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+### 4. Configure Environment Variables
+Copy .env.example to .env and add your API keys and configurations.
+
+```bash
+cp .env.example .env
+```
+## Running Examples 
+### Run Basic Pipeline
+```bash
+python examples/basic_pipeline.py
+```
+### Run Enhanced Pipeline (with Sentiment Analysis)
+```bash
+python examples/enhanced_pipeline.py
+```
+### Run Conditional Pipeline
+```bash
+python examples/conditional_pipeline.py
+```
+### Running Tests
+```bash
+pytest tests/
+```
+
 ## project structure 
 ```
 langgraph_text_analysis/
